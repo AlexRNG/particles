@@ -86,3 +86,9 @@ I add shapes by creating a list in which each index is a layer of the shape (eg 
                     count = 0;
 
 ```
+
+for example, an input could be 
+```c#
+List<int> rectangle = new List<int>() {11, 11, 11, 11, 11};
+gameMap.AddShape(rectangle);
+```
