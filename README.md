@@ -65,7 +65,7 @@ If both are open then a random number between 0 and 10 is used to determine whic
 
 ## Adding Shapes to the map
 
-I add shapes by creating a list in which each index is a layer of the shape (eg a 2x2 square would be the list [11, 11])
+I add shapes by creating a list in which each index is a layer of the shape (eg a 2x2 square would be the list {11, 11})
 ```c#
  public void AddShape(List<int> shape) {
             int midOfLine = Width / 2;
